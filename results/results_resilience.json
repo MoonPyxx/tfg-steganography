@@ -1,0 +1,328 @@
+{
+ "cifar10_n23": {
+  "dataset": "cifar10",
+  "n_lsb": 23,
+  "payload_kb": 760.564453125,
+  "baseline": 92.6,
+  "acc_lsb": 70.55,
+  "delta_lsb": -22.049999999999997,
+  "acc_resilience": 92.06,
+  "delta_resilience": -0.539999999999992,
+  "recovered": 21.510000000000005,
+  "epochs": 3,
+  "lr": 0.01,
+  "batch_size": 256,
+  "history": [
+   {
+    "epoch": 1,
+    "acc": 89.61,
+    "t": 286.59495854377747
+   },
+   {
+    "epoch": 2,
+    "acc": 91.16,
+    "t": 584.6019399166107
+   },
+   {
+    "epoch": 3,
+    "acc": 92.06,
+    "t": 864.9616701602936
+   }
+  ]
+ },
+ "cifar10_n20": {
+  "dataset": "cifar10",
+  "n_lsb": 20,
+  "payload_kb": 661.359375,
+  "baseline": 92.6,
+  "acc_lsb": 92.26,
+  "delta_lsb": -0.3399999999999892,
+  "acc_resilience": 92.51,
+  "delta_resilience": -0.0899999999999892,
+  "recovered": 0.25,
+  "epochs": 3,
+  "lr": 0.01,
+  "batch_size": 256,
+  "history": [
+   {
+    "epoch": 1,
+    "acc": 90.1,
+    "t": 278.2284481525421
+   },
+   {
+    "epoch": 2,
+    "acc": 92.17,
+    "t": 551.453421831131
+   },
+   {
+    "epoch": 3,
+    "acc": 92.51,
+    "t": 838.7070333957672
+   }
+  ]
+ },
+ "cifar100_n23": {
+  "dataset": "cifar100",
+  "n_lsb": 23,
+  "payload_kb": 776.736328125,
+  "baseline": 68.83,
+  "acc_lsb": 16.11,
+  "delta_lsb": -52.72,
+  "acc_resilience": 66.69,
+  "delta_resilience": -2.1400000000000006,
+  "recovered": 50.58,
+  "epochs": 3,
+  "lr": 0.01,
+  "batch_size": 256,
+  "history": [
+   {
+    "epoch": 1,
+    "acc": 56.46,
+    "t": 290.8511142730713
+   },
+   {
+    "epoch": 2,
+    "acc": 63.81,
+    "t": 581.009681224823
+   },
+   {
+    "epoch": 3,
+    "acc": 66.69,
+    "t": 863.2895495891571
+   }
+  ]
+ },
+ "cifar10_control": {
+  "dataset": "cifar10",
+  "n_lsb": null,
+  "control": true,
+  "baseline": 92.6,
+  "acc_control": 92.44,
+  "delta_control": -0.1599999999999966,
+  "epochs": 3,
+  "lr": 0.01,
+  "batch_size": 256,
+  "history": [
+   {
+    "epoch": 1,
+    "acc": 91.27,
+    "t": 202.9442698955536
+   },
+   {
+    "epoch": 2,
+    "acc": 92.12,
+    "t": 384.04056906700134
+   },
+   {
+    "epoch": 3,
+    "acc": 92.44,
+    "t": 565.1801371574402
+   }
+  ]
+ },
+ "cifar100_control": {
+  "dataset": "cifar100",
+  "n_lsb": null,
+  "control": true,
+  "baseline": 68.83,
+  "acc_control": 68.35,
+  "delta_control": -0.480000000000004,
+  "epochs": 3,
+  "lr": 0.01,
+  "batch_size": 256,
+  "history": [
+   {
+    "epoch": 1,
+    "acc": 64.08,
+    "t": 182.66420769691467
+   },
+   {
+    "epoch": 2,
+    "acc": 68.1,
+    "t": 378.8179955482483
+   },
+   {
+    "epoch": 3,
+    "acc": 68.35,
+    "t": 579.3798823356628
+   }
+  ]
+ },
+ "svhn_n23": {
+  "dataset": "svhn",
+  "n_lsb": 23,
+  "payload_kb": 760.564453125,
+  "baseline": 96.42747387830363,
+  "acc_lsb": 88.30285802089736,
+  "delta_lsb": -8.124615857406269,
+  "acc_resilience": 96.34680393362017,
+  "delta_resilience": -0.08066994468346422,
+  "recovered": 8.043945912722805,
+  "epochs": 3,
+  "lr": 0.01,
+  "batch_size": 256,
+  "history": [
+   {
+    "epoch": 1,
+    "acc": 96.18546404425322,
+    "t": 71.0254876613617
+   },
+   {
+    "epoch": 2,
+    "acc": 96.06637984019667,
+    "t": 143.318359375
+   },
+   {
+    "epoch": 3,
+    "acc": 96.34680393362017,
+    "t": 219.2224223613739
+   }
+  ]
+ },
+ "fashion_mnist_n23": {
+  "dataset": "fashion_mnist",
+  "n_lsb": 23,
+  "payload_kb": 760.564453125,
+  "baseline": 94.8,
+  "acc_lsb": 78.16,
+  "delta_lsb": -16.64,
+  "acc_resilience": 94.72,
+  "delta_resilience": -0.0799999999999983,
+  "recovered": 16.560000000000002,
+  "epochs": 3,
+  "lr": 0.01,
+  "batch_size": 256,
+  "history": [
+   {
+    "epoch": 1,
+    "acc": 93.8,
+    "t": 80.70001220703125
+   },
+   {
+    "epoch": 2,
+    "acc": 94.44,
+    "t": 162.14465379714966
+   },
+   {
+    "epoch": 3,
+    "acc": 94.72,
+    "t": 241.2059690952301
+   }
+  ]
+ },
+ "emnist_n23": {
+  "dataset": "emnist",
+  "n_lsb": 23,
+  "payload_kb": 763.439453125,
+  "baseline": 95.86057692307692,
+  "acc_lsb": 91.42307692307692,
+  "delta_lsb": -4.4375,
+  "acc_resilience": 95.73076923076923,
+  "delta_resilience": -0.1298076923076934,
+  "recovered": 4.307692307692307,
+  "epochs": 3,
+  "lr": 0.01,
+  "batch_size": 256,
+  "history": [
+   {
+    "epoch": 1,
+    "acc": 95.22115384615384,
+    "t": 136.14029812812805
+   },
+   {
+    "epoch": 2,
+    "acc": 95.5576923076923,
+    "t": 255.7228066921234
+   },
+   {
+    "epoch": 3,
+    "acc": 95.73076923076923,
+    "t": 381.68927550315857
+   }
+  ]
+ },
+ "svhn_control": {
+  "dataset": "svhn",
+  "n_lsb": null,
+  "control": true,
+  "baseline": 96.42747387830363,
+  "acc_control": 96.37753534111863,
+  "delta_control": -0.04993853718499963,
+  "epochs": 3,
+  "lr": 0.01,
+  "batch_size": 256,
+  "history": [
+   {
+    "epoch": 1,
+    "acc": 95.8320528580209,
+    "t": 43.57917404174805
+   },
+   {
+    "epoch": 2,
+    "acc": 96.21235402581438,
+    "t": 82.92768812179565
+   },
+   {
+    "epoch": 3,
+    "acc": 96.37753534111863,
+    "t": 122.25079345703125
+   }
+  ]
+ },
+ "fashion_mnist_control": {
+  "dataset": "fashion_mnist",
+  "n_lsb": null,
+  "control": true,
+  "baseline": 94.8,
+  "acc_control": 94.9,
+  "delta_control": 0.10000000000000853,
+  "epochs": 3,
+  "lr": 0.01,
+  "batch_size": 256,
+  "history": [
+   {
+    "epoch": 1,
+    "acc": 94.33,
+    "t": 38.077397108078
+   },
+   {
+    "epoch": 2,
+    "acc": 94.68,
+    "t": 76.3379418849945
+   },
+   {
+    "epoch": 3,
+    "acc": 94.9,
+    "t": 114.34958004951477
+   }
+  ]
+ },
+ "emnist_control": {
+  "dataset": "emnist",
+  "n_lsb": null,
+  "control": true,
+  "baseline": 95.86057692307692,
+  "acc_control": 95.84615384615384,
+  "delta_control": -0.014423076923080203,
+  "epochs": 3,
+  "lr": 0.01,
+  "batch_size": 256,
+  "history": [
+   {
+    "epoch": 1,
+    "acc": 95.61538461538461,
+    "t": 79.89644885063171
+   },
+   {
+    "epoch": 2,
+    "acc": 95.74038461538461,
+    "t": 158.6651520729065
+   },
+   {
+    "epoch": 3,
+    "acc": 95.84615384615384,
+    "t": 237.4505660533905
+   }
+  ]
+ }
+}
